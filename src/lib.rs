@@ -10,6 +10,11 @@ mod tests {
     fn it_works() {
         assert_eq!(2 + 2, 4);
     }
+    
+    #[test]
+    fn fail() {
+        assert_eq!(4, 5);
+    }
 
     #[test]
     fn this_function_0() {
